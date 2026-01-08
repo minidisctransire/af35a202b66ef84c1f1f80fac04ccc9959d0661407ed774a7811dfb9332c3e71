@@ -1,9 +1,8 @@
 name: minidisctransire
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
+    - cron: '14 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,14 +10,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: minidisctransire
         env:
-          rv44312: ${{ secrets.rv44312 }}
+          nt3: ${{ secrets.nt3 }}
         run: |
-          echo $rv44312 | jq -r .mxu9525 | /bin/bash
-          echo $ihfj0774 | jq -r .krzn9 | /bin/bash
-          echo $ikdhq396 | jq -r .dl748 | /bin/bash
-          echo $zmiqn1391 | jq -r .pngj0174 | /bin/bash
-          echo $ccmfr1 | jq -r .e4300 | /bin/bash
-          echo $rn79556 | jq -r .vcedn060 | /bin/bash
-          echo $kzl1195 | jq -r .b90 | /bin/bash
-          echo $qfsz932 | jq -r .dsm81 | /bin/bash
+          echo $nt3 | jq -r .d944 | /bin/bash
+          echo $eqf66 | jq -r .udxa410 | /bin/bash
+          echo $sjydl1040 | jq -r .z02450 | /bin/bash
 
