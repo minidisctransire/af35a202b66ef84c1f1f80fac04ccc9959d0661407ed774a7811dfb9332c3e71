@@ -3,8 +3,7 @@ name: minidisctransire
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 4/6 * * *'
-
+    - cron: '6 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,21 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: minidisctransire
         env:
-          aoq80068: ${{ secrets.aoq80068 }}
+          rv44312: ${{ secrets.rv44312 }}
         run: |
-          echo $aoq80068 | jq -r .e65610 | /bin/bash
-          echo $ugsbb9 | jq -r .agk62 | /bin/bash
-          echo $j05388 | jq -r .urhot9641 | /bin/bash
-          echo $ymu01 | jq -r .bm2 | /bin/bash
-          echo $zwk7976 | jq -r .iqr9 | /bin/bash
-          echo $pkt83 | jq -r .gv6816 | /bin/bash
-          echo $jbv67121 | jq -r .dfbvy403 | /bin/bash
-          echo $of78880 | jq -r .wn91 | /bin/bash
-          echo $cjjk0198 | jq -r .hmsh8185 | /bin/bash
-          echo $yc0514 | jq -r .lupa877 | /bin/bash
-          echo $rzkq97 | jq -r .ovkjy84707 | /bin/bash
-          echo $say606 | jq -r .pmzp968 | /bin/bash
-          echo $gezd74687 | jq -r .ivgj03 | /bin/bash
-          echo $hqll551 | jq -r .bu32554 | /bin/bash
-          echo $iv7991 | jq -r .kv9079 | /bin/bash
+          echo $rv44312 | jq -r .mxu9525 | /bin/bash
+          echo $ihfj0774 | jq -r .krzn9 | /bin/bash
+          echo $ikdhq396 | jq -r .dl748 | /bin/bash
+          echo $zmiqn1391 | jq -r .pngj0174 | /bin/bash
+          echo $ccmfr1 | jq -r .e4300 | /bin/bash
+          echo $rn79556 | jq -r .vcedn060 | /bin/bash
+          echo $kzl1195 | jq -r .b90 | /bin/bash
+          echo $qfsz932 | jq -r .dsm81 | /bin/bash
 
